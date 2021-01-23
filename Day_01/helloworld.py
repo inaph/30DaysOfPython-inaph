@@ -1,0 +1,18 @@
+print(2 + 3)
+print(3 - 2)
+print(5 * 6)
+print(10 / 9)
+print(5 ** 3)
+print(3 % 2)
+print(3 // 2)
+
+# To Check the data types
+print(type(12))
+print(type(1.5))
+print(type("phani"))
+print(type('phani'))
+print(type(10 + 3j))
+print(type(['phani', 3, '3',"Monday"]))
+print(type(('phani', 3, '3',"Monday")))
+print(type({'phani', 3, '3',"Monday"}))
+print(type({'name': 'Phani'}))
