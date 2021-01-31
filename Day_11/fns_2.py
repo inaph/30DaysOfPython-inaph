@@ -16,9 +16,18 @@ print(type(lst_1[0]))
 
 print('\n')
 print('Solution for Question 19')
-#Write a function which checks if all the items of the list are 
+#Write a function which checks if all the items of the list are same data type
 
 def check_d_type(x):
     for item in x:
-        
-        print('  ')
+        if not isinstance(item, type(x[0])):
+            break
+        else:
+            print('False')
+
+check_d_type([10,20,'f'])
+
+
+print('\n')
+print('Solution for Question 20')
+#
