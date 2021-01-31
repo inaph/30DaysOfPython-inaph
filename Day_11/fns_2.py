@@ -30,4 +30,23 @@ check_d_type([10,20,'f'])
 
 print('\n')
 print('Solution for Question 20')
-#
+#Write a function which check if provided variable is a valid python variable
+
+def valid_py_var(x):
+    if type(x) == str:
+        print('It is string')
+    elif type(x) == int:
+        print('It is Interger')
+    elif type(x) == bool:
+        print("It is Boolean")
+    elif type(x) == float:
+        print('It is Float')
+    else:
+        print('NOt a valid data type in python')
+
+valid_py_var(10)
+valid_py_var('Phani')
+valid_py_var(3.14)
+valid_py_var(False)
+valid_py_var(2)
+
